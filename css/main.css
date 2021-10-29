@@ -3097,36 +3097,4 @@ blockquote span {
     max-width: 100%; 
     mix-blend-mode: multiply;
   }
-  .headline_yell {
-    .char {
-        name: yell;
-        dur: 3s;
-        tf: ease;
-      
-        transform-origin: 50% 100%;
-    }
-    
-    @keyframes yell {
-      3% {
-        transform:
-          scale(calc(1 * var(--distance-percent) + 1.5)) 
-          rotate(calc(15deg * var(--distance-sine)))
-          translateY(-10%);
-      }
-      6% {
-        transform:
-          scale(calc(1 * var(--distance-percent) + 1.2)) 
-          rotate(calc(15deg * var(--distance-sine)))
-          translateY(-10%);
-      }
-      12% {
-        transform:
-          scale(calc(1 * var(--distance-percent) + 1.5)) 
-          rotate(calc(15deg * var(--distance-sine)))
-          translateY(-10%);
-      }
-      18% { transform: scaleY(1) translateY(-2%); }
-      25% { transform: scaleY(0.98); }
-      50% { transform: scaleY(1); }
-      75% { transform: scale(0.98); }
-    }
+  
