@@ -1474,16 +1474,16 @@ ul.nav > li > a.active {
     background-repeat: no-repeat;
     background-position: right top;
     background-size: 75%;
-    width: 735px;
-    height: 500px;
+    width: 535px;
+    height: 200px;
     right: -85px;
     top: -65px;
     animation-name: moc-animation;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     -webkit-animation-name: moc-animation;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 3s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 }
