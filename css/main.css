@@ -3076,3 +3076,23 @@ blockquote span {
     color: #fff;
     opacity: 0.8;
 }
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .brands__item {
+    background: #eee;
+  }
+  
+  .brands__item img {
+    display: block;
+    width: 130px;
+    height: 75px;
+    object-fit: contain
+    /* Make sure max-width is added */
+    max-width: 100%; 
+    mix-blend-mode: multiply;
+  }
