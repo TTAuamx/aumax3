@@ -1489,10 +1489,11 @@ ul.nav > li > a.active {
 }
 .hero-2 .hero-content{}
 .hero-2 .hero-content h1 {
-    color: #fff;
+    color: rgb(235, 144, 8);
 }
 .hero-2 .hero-content p {
-    color: #ddd;
+    color: rgb(61, 59, 59);
+    font-weight: bold;
 }
 .hero-2 .play-btn {
     color: #ddd;
