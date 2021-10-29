@@ -1621,12 +1621,12 @@ ul.nav > li > a.active {
 .features-section{ z-index: 1; }
 .features-item{
     text-align: center;
-    padding: 40px;
+    padding: 35px;
     transition: all 0.2s ease-in-out;
     z-index: 1;
 }
 .features-item i{
-    width: 80px;
+    width: 60px;
     height: 80px;
     line-height: 80px;
     text-align: center;
