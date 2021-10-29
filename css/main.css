@@ -3084,14 +3084,14 @@ blockquote span {
   }
   
   .brands__item {
-    background: #eee;
+    background: rgb(255, 255, 255);
   }
   
   .brands__item img {
     display: block;
     width: 130px;
     height: 75px;
-    object-fit: contain
+    object-fit: contain;
     /* Make sure max-width is added */
     max-width: 100%; 
     mix-blend-mode: multiply;
