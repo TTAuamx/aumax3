@@ -1401,7 +1401,24 @@ ul.nav > li > a.active {
 }
 .hero-content h1 {
     margin-bottom: 20px;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 30px;
+    
+    
 }
+.hero-content h2{
+    background-color: #ff9933;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-right: 10px;
+}
+
 .hero-content p {
     margin-bottom: 30px;
 }
