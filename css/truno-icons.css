@@ -53,7 +53,7 @@
   content: "\e908";
 }
 .truno-network:before {
-  content: "\e909";
+  content: "img\added-box.svg";
 }
 .truno-quality:before {
   content: "\e90a";
