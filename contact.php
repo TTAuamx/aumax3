@@ -17,7 +17,7 @@
         }
 
         // Update this to your desired email address.
-        $recipient = "contact@yourdomain.com";
+        $recipient = "theo@aumac.co.za";
 		$subject = "Message from $name";
 
         // Email content.
