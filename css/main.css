@@ -1373,7 +1373,9 @@ ul.nav > li > a.active {
     border-top: 1px solid #eaeaea;
     z-index: 1;
 }
-.hero-content{}
+.hero-content{
+
+}
 .hero-content h4 {
     background-color: rgba(0, 153, 229,0.1);
     font-weight: 500;
@@ -1387,6 +1389,19 @@ ul.nav > li > a.active {
 }
 .hero-2 .hero-content h4 {
     background-color: #f6f7ff;
+}
+.hero-content h5 {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    font-weight:900;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #244464;
+    line-height: 1.9;
+  
+    
+    
 }
 .hero-content h4 i {
     background-color: #ff9933;
@@ -1477,6 +1492,7 @@ ul.nav > li > a.active {
 .hero-section.hero-2 {
     background-image: url(../img/hero-bg-2.png);
     background-repeat: no-repeat;
+ 
     background-position: bottom center;
     background-size: cover;
     width: 100%;
