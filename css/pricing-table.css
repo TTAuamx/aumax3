@@ -85,6 +85,7 @@ Main Components
 .cd-pricing-list > li {
     position: relative;
     margin-bottom: 1em;
+    float: left;
 }
 @media only screen and (min-width: 768px) {
   .cd-pricing-list {}
@@ -454,6 +455,8 @@ xkeyframes
     text-align: center;
     position: relative;
     overflow: hidden;
+    width: 200px;
+    float: left;
 }
 .pricing-box.premium .pricing-head h3,
 .pricing-box.premium .pricing-list li,
