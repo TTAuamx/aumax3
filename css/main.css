@@ -2219,10 +2219,15 @@ ul.nav > li > a.active {
 /* ==========================================================================
    Team Section
    ========================================================================== */
-.team-section{}
+.team-section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 .team-item{}
 .team-item img{}
 .team-content{
+    
     background-color: #fff;
     text-align: center;
     box-shadow: 0px 3px 20px 0px rgba(50, 65, 80, 0.1);
@@ -2230,6 +2235,8 @@ ul.nav > li > a.active {
     margin: 0 20px;
     transform: translateY(-30px);
     transition: transform 0.3s ease-in;
+
+    
 }
 .team-item:hover .team-content {
     transform: translateY(-33px);

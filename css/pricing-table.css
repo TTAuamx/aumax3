@@ -457,6 +457,7 @@ xkeyframes
     overflow: hidden;
     width: 200px;
     float: left;
+    margin-right: 40px;
 }
 .pricing-box.premium .pricing-head h3,
 .pricing-box.premium .pricing-list li,
