@@ -2081,11 +2081,19 @@ ul.nav > li > a.active {
 }
 .pricing-area h3 {
     font-size: 40px;
+    
 }
+
+.br {
+    display: block;
+    margin-bottom: 0em;
+}
+
 .pricing-area h3 span {
     color: #8495a7;
     font-size: 15px;
     margin-left: 5px;
+    
 }
 
 /* ==========================================================================
